@@ -2,7 +2,9 @@
 
 # Created By: Nathan
 # Date: Dec. 8, 2022
-# This program calculates the surface area of a cylinder, the circumference and area of the circles on the top and bottom
+# This program calculates the surface area of a cylinder, 
+# the circumference and area of the circles on the top 
+# and bottom it then displays it
 
 import math
 
