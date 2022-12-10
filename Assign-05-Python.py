@@ -2,8 +2,8 @@
 
 # Created By: Nathan
 # Date: Dec. 8, 2022
-# This program calculates the surface area of a cylinder, 
-# the circumference and area of the circles on the top 
+# This program calculates the surface area of a cylinder,
+# the circumference and area of the circles on the top
 # and bottom it then displays it
 
 import math
@@ -56,7 +56,7 @@ def main():
             print("You must enter a valid number.")
         else:
             # If they entered a number less than 0
-            if user_radius < 0 and user_height < 0:
+            if user_radius > 0 and user_height > 0:
                 # Call circumference_calculate(user_radius)
                 circumference = circumference_calculate(user_radius)
                 # Call surface_area_calculate(user_radius, user_height)
